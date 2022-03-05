@@ -39,29 +39,44 @@ You can check arp status with :
 
 Other useful commands
 
-  lynx http://www.xfree86.org
-  lynx news:comp.os.coherent
-  gopher gopher.floodgap.com
-  mutt -f imaps://imap.gmail.com/INBOX
-  dig8 www.mutt.org
-  gethost www.oracle.com
-  ping www.gnu.org
-  telnet pub400.com
-  lynx http://ftp.mutt.org
-  lynx https://www.google.pl
+  lynx http://www.xfree86.org 
+
+  lynx news:comp.os.coherent 
+
+  gopher gopher.floodgap.com 
+
+  mutt -f imaps://imap.gmail.com/Inbox 
+
+  dig8 www.mutt.org 
+
+  gethost www.oracle.com 
+  ping www.gnu.org 
+
+  telnet pub400.com 
+
+  lynx http://ftp.mutt.org 
+
+  lynx https://www.google.pl 
 
 Xfree86 VESA server is AVAILABLE. 
 
 Useful system commands
-  scanpci -v
-  mptable
-  ndf
+
+  scanpci -v 
+
+  mptable  
+
+  ndf 
   
 
 Supported Network cards :
+
   82543gc (virtual box) 
-  82541PI
-  82574L
+
+  82541pi 
+
+  82574L 
+
   82576NS (one port only) 
  
 
