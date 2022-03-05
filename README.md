@@ -1,25 +1,38 @@
 # Coherent
-Free software for coherent OS
+Free software for coherent OS. 
+
 You Will find here the virtual machine image usable 
 In latest editions of Virtualbox for XP and 
 WIN10. 
 
 The virtual machine should be defined as follows:
+
 1)one processor
+
 2)700 MB ram
+
 3)64 MB video memory
+
 4)ide piix4 controller
+
 5)chipset piix3, ps2 mouse
+
 6)ioapic enabled
+
 7)networking : NAT, 82543gc card
  
 Starting:
+
 1) after boot choose 0 partition
+
 2) enter cohtestSAY12z as kernel name
+
 3) wait till login prompt
+
 4) user root, password : coherent
 
 Using:
+
 After login enter :
 
   bash
@@ -33,6 +46,7 @@ Then :
   ifconfig ipro100
 
 This Will show the network parameters. 
+
 You can check arp status with :
 
   arp ipro100
@@ -50,6 +64,7 @@ Other useful commands
   dig8 www.mutt.org 
 
   gethost www.oracle.com 
+
   ping www.gnu.org 
 
   telnet pub400.com 
