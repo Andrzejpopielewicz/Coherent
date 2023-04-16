@@ -25,7 +25,7 @@ Starting:
 
 1) after boot choose 0 partition
 
-2) enter cohtestSAY12z as kernel name
+2) enter cohtestSAY13z as kernel name
 
 3) wait till login prompt
 
@@ -35,13 +35,37 @@ Using:
 
 After login enter :
 
-  bash
+  ./prepare
 
 If you want to use Network enter : 
 
   dhcpclient
+  
+Wait for the reasonable output
+Then check if networking works
 
-Then : 
+  ping www.ibm.com
+  
+If ping works enter ctrl/c to stop it.
+Then enter
+
+  ALT/F2
+  
+to change the virtual console
+Then enter
+
+  /usr/bin/ticker &
+  
+and switch back to first virtual console
+ 
+  ALT/F1
+  
+You can now use networking. 
+To see Your gmail mails enter
+
+  mutt -f imaps://imap.gmail.com/INBOX
+
+Other useful commands 
 
   ifconfig ipro100
 
@@ -69,7 +93,7 @@ Other useful commands
 
   telnet pub400.com 
 
-  lynx http://ftp.mutt.org 
+  lynx http://ftp.xfree86.org/public 
 
   lynx https://www.google.pl 
 
@@ -82,6 +106,8 @@ Useful system commands
   mptable  
 
   ndf 
+  
+  mc -c
   
 
 Supported Network cards :
