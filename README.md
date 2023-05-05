@@ -3,9 +3,15 @@ Free software for coherent OS.
 
 You Will find here the virtual machine image usable 
 In latest editions of Virtualbox for XP and 
-WIN10. 
+WIN10.
 
-The virtual machine should be defined as follows:
+Copy the file coherent3.zip into VirtualBox VMs directory and uncompress. It will create coherent3 virtual machine in Your VirtualBox.
+
+It is ready to be started, no configuration needed. The virtual disk of this machine can be used in other systems like MacOS or Linux,
+
+but we do NOT tested yet.
+
+In general virtual machine should be defined as follows:
 
 1)one processor
 
@@ -25,7 +31,7 @@ Starting:
 
 1) after boot choose 0 partition
 
-2) enter cohtestSAY13z as kernel name
+2) enter cohtestSAY13z as kernel name, or wait for autoboot
 
 3) wait till login prompt
 
@@ -51,7 +57,7 @@ Then enter
 
   ALT/F2
   
-to change the virtual console
+to change the virtual console , login to Coherent
 Then enter
 
   /usr/bin/ticker &
@@ -95,7 +101,15 @@ Other useful commands
 
   lynx http://ftp.xfree86.org/public 
 
-  lynx https://www.google.pl 
+  lynx https://www.google.pl
+  
+  lynx gopher://gopher.floodgap.com
+  
+  ntpdate pool.ntp.org
+  
+Only one instance of ping command can be used at a given time.
+
+Before using ntpdate remowe pool.ntp.org entry from /etc/hosts if present.
 
 Xfree86 VESA server is AVAILABLE. 
 
@@ -122,6 +136,6 @@ Supported Network cards :
  
 
 
-Of course before using mutt You Have to configure
-.muttrc file. 
+Important : Of course before using mutt You Have to configure
+.muttrc file, it is enough to insert Your gmail paswords and user if You have gmail account. 
 
