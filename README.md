@@ -137,5 +137,8 @@ Supported Network cards :
 
 
 Important : Of course before using mutt You Have to configure
-.muttrc file, it is enough to insert Your gmail paswords and user if You have gmail account. 
+.muttrc file, it is enough to insert Your gmail paswords and user if You have gmail account. More precisely, usual gmail account password will NOT work.
+Simply after logon in gmail account create so called application specific password and use this password in mutt. The name of the application in gmail is not important, You can for example name it mutt.
+
+Warning : do NOT use ahci at driver, use nonahci at driver, which installed by default. Otherwise You risk to corrupt Your virtual disk.
 
