@@ -2,14 +2,13 @@
 Free software for coherent OS. 
 
 You Will find here the virtual machine image usable 
-In latest editions of Virtualbox for XP and 
-WIN10.
+In latest editions of Virtualbox in Win10. 
 
 Copy the file coherent3.zip into VirtualBox VMs directory and uncompress. It will create coherent3 virtual machine in Your VirtualBox.
 
-It is ready to be started, no configuration needed. The virtual disk of this machine can be used in other systems like MacOS or Linux,
+It is ready to be started, no configuration needed. The virtual disk of this machine can be used in other systems like MacOS or Linux ,
 
-but we do NOT tested yet.
+but we do NOT tested yet. The virtual disk was tested OK in WinXP.
 
 In general virtual machine should be defined as follows:
 
