@@ -147,6 +147,7 @@ Important : Of course before using mutt You Have to configure
 Simply after logon in gmail account create so called application specific password and use this password in mutt. The name of the application in gmail is not important, You can for example name it mutt.
 
 Warning : do NOT use ahci at driver, use nonahci at driver, which is installed by default. Otherwise You risk to corrupt Your virtual disk.
+
 Remark : we suggest to change the PATH to :
   
   export PATH=$PATH:/usr/local/X11R6/bin
