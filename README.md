@@ -2,7 +2,7 @@
 Free software for coherent OS. 
 
 You Will find here the virtual machine image usable 
-In latest editions of Virtualbox in Win10. 
+in latest editions of Virtualbox in Win10. 
 
 Copy the file coherent3.zip into VirtualBox VMs directory and uncompress. It will create coherent3 virtual machine in Your VirtualBox.
 
@@ -14,9 +14,9 @@ In general virtual machine should be defined as follows:
 
 1)one processor
 
-2)700 MB ram
+2)1000 MB ram
 
-3)64 MB video memory
+3)64/128 MB video memory
 
 4)ide piix4 controller
 
@@ -30,7 +30,7 @@ Starting:
 
 1) after boot choose 0 partition
 
-2) enter cohtestSAY13z as kernel name, or wait for autoboot
+2) enter cohtestSAY13z as kernel name  
 
 3) wait till login prompt
 
@@ -106,6 +106,13 @@ Other useful commands
   
   ntpdate pool.ntp.org
   
+We suggest to do the following. First check if sizes of cohtestSAY13z , autoboot and coherent are equal. If not , then do
+
+   cp cohtestSAY13z coherent
+   cp cohtestSAY13z autoboot
+   
+It will may Your life easier :).
+  
 Only one instance of ping command can be used at a given time.
 
 Before using ntpdate remowe pool.ntp.org entry from /etc/hosts if present.
@@ -139,5 +146,11 @@ Important : Of course before using mutt You Have to configure
 .muttrc file, it is enough to insert Your gmail paswords and user if You have gmail account. More precisely, usual gmail account password will NOT work.
 Simply after logon in gmail account create so called application specific password and use this password in mutt. The name of the application in gmail is not important, You can for example name it mutt.
 
-Warning : do NOT use ahci at driver, use nonahci at driver, which installed by default. Otherwise You risk to corrupt Your virtual disk.
+Warning : do NOT use ahci at driver, use nonahci at driver, which is installed by default. Otherwise You risk to corrupt Your virtual disk.
+Remark : we suggest to change the PATH to :
+  
+  export PATH=$PATH:/usr/local/X11R6/bin
+  
+After this both X window managers namely mwm2 and icewm will work fine. If You do not do it icewm will work but will be not usable :). And icewm is obviously better. Also notice , that xclock MUST be started just after start of the X , for example using xclock icon on the taskbar.
+   
 
