@@ -108,8 +108,8 @@ Other useful commands
   
 We suggest to do the following. First check if sizes of cohtestSAY13z , autoboot and coherent are equal. If not , then do
 
-   cp cohtestSAY13z coherent
-   cp cohtestSAY13z autoboot
+   cp cohtestSAY13z coherent ;
+   cp cohtestSAY13z autoboot ;
    
 It will may Your life easier :).
   
