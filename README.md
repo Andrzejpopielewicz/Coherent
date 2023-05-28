@@ -151,6 +151,6 @@ Remark : we suggest to change the PATH to :
   
   export PATH=$PATH:/usr/local/X11R6/bin
   
-After this both X window managers namely mwm2 and icewm will work fine. If You do not do it icewm will work but will be not usable :). And icewm is obviously better. Also notice , that xclock MUST be started just after start of the X , for example using xclock icon on the taskbar.
+After this both X window managers namely mwm2 and icewm will work fine. If You do not do it icewm will work but will be not usable :). And icewm is obviously better. Also notice , that xclock MUST be started just after start of the X , for example using xclock icon on the taskbar (in the case of icewm) or xclock command in the menubar(in the case of mwm2).
    
 
