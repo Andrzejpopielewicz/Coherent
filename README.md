@@ -104,6 +104,8 @@ Other useful commands
   
   lynx gopher://gopher.floodgap.com
   
+  lynx http://server505065.nazwa.pl
+  
   ntpdate pool.ntp.org
   
 We suggest to do the following. First check if sizes of cohtestSAY13z , autoboot and coherent are equal. If not , then do
